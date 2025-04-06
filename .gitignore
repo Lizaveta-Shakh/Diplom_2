@@ -1,32 +1,49 @@
-# Byte-compiled / optimized / DLL files
+# 🐍 Python: bytecode, compiled, temp
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+*.pyd
+*.dll
 
-# Caches
+# 🧪 Pytest
+.pytest_cache/
 .cache/
 *.log
 
-# Virtual environment
+# 🌐 Виртуальные окружения
 venv/
 .venv/
 env/
-.env/
+.env
+.env.*
 
-# IDEs
-.idea/
-.vscode/
+# 🧪 Allure
+allure-results/
+allure-report/
+.history/
+allure-maven/
 
-# Test outputs
+# 🧪 Целевые тестовые папки (например, Java-проекты)
 /target/
 !/target/allure-results/
 
-# Pytest
-.pytest_cache/
+# IDE: PyCharm, VS Code
+.idea/
+.vscode/
+
+# 🚫 Бэкапы / мусор
+*.swp
+*.bak
+*.tmp
+*.orig
+*.DS_Store
+Thumbs.db
+
 
 # System files
 .DS_Store
-Thumbs.db
+
 
 # Environment files
 .env
